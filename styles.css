@@ -1,0 +1,43 @@
+body{
+  background-color: #e0ebe8;
+  text-align: center;
+}
+.head-image {
+  max-width: 100%;
+  max-height: 100%;
+    border-radius:50%;
+
+
+}
+.name-container{
+  text-align: center;
+  color: #45b29a;
+}
+.image-container{
+
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-right: auto;
+  left: 300;
+}
+.poem-container{
+  background-color: #ecfbfc;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding: 50px;
+  text-align: justify;
+  border-radius: 0px 0px 10px 10px;
+}
+.talk-container{
+  background-color: #ecfbfc;
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 50px;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 10px 10px 0px 0px;
+}
