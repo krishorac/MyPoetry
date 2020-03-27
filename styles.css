@@ -2,6 +2,11 @@ body{
   background-color: #e0ebe8;
   text-align: center;
 }
+hr{
+  border-top: 10px dotted #45b29a;
+  width: 50px;
+  margin-bottom: 10px;
+}
 .head-image {
   max-width: 100%;
   max-height: 100%;
@@ -27,17 +32,20 @@ body{
 
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 700px;
   padding: 50px;
   text-align: justify;
-  border-radius: 0px 0px 10px 10px;
+  font-family: cursive;
+  border-radius: 20px;
 }
-.talk-container{
-  background-color: #ecfbfc;
-  margin-left: auto;
-  margin-top: 10px;
-  padding: 50px;
-  margin-right: auto;
-  width: 500px;
-  border-radius: 10px 10px 0px 0px;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#323232;
+  color: white;
+  text-align: center;
 }
